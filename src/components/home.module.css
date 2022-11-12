@@ -1,0 +1,604 @@
+/* Общие стили, ориентированные на мобильные устройства */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.homeWrapper{
+  margin-top: -20px;
+}
+.notificationWrap{
+  position: relative;
+}
+.notification{
+  position: relative;
+}
+.notificationItem{
+   position: absolute;
+   top: -40%;
+   right: 10%;
+}
+.backgroundWrapLogin{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url(../assets/images/darkbluebackground.jpg);
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.loginButton{
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  font-size: 33px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: gray;
+  position: absolute;
+  top: 45px;
+  left: 139px;
+  padding: 1px 5px 5px 5px;;
+}
+.wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myAvatar{
+  vertical-align: middle;
+  width: 15%;
+  /* height: 20%;*/
+  border-radius: 50%;
+  flex: 0 1 50px;
+  margin: 10px 10px 10px 25px;
+}
+.buttonLogOut{
+  background-color: #007bbe;
+  width: 31%;
+  height: 40px;
+  border: 2px gray;
+  border-radius: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.buttonLogOut:hover{
+  background-color: rgba(0, 0, 255, 0.473);
+}
+.headerCotact{
+  background-color: #0094e5;
+    /* margin-right: -37px; */
+    /* margin-left: -37px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.filter{
+  position: relative;
+  top: -1px;
+  left: 0;
+  right: 0;
+  width: 90%;
+ }
+ .searchIcon{
+   position: absolute;
+   top: 20px;
+   left: 33px;
+ }
+ input{
+  border: #80808075;
+  border-style: solid;
+  border-width: thin;
+  resize: none;
+  /* height: 40px; */
+  width: 75%;
+  border-radius: 25px;
+  line-height: 20px;
+  padding: 5px 10px 5px 42px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+ }
+ input::placeholder {
+   font-size: 20px;
+   padding: 10px 0 10px 15px;
+ }
+ .contacts{
+  width: 90%;
+  position: relative;
+}
+.contactsTitle{
+  display: none;
+ /*  font-size: 20px;
+  color: #0000ff85;
+  padding-left: 20px;
+  position: fixed;
+  top: 23%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #b6b0b0;
+  width: 100%;
+  height: 5%;
+  font-weight: bold; */
+ 
+}
+/* .avatarStyle{
+  vertical-align: middle;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  flex: 0 1 50px;
+} */
+.userContactsItemContainer{
+  position: relative;
+  margin-top: 53%;
+}
+.userContactsItem{
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #8080802e;
+}
+.userNameContacts{
+  font-size: 20px;
+  margin: 0 10px;
+  color: #000000c9;
+}
+
+.lastMessage{
+  width: 90%;
+  margin: 2px 5px 2px 8px;
+  color: #0000006b;
+}
+.lastMessageTime{
+  position: absolute;
+  top: 24px;
+  right: 15px;
+}
+
+.listWrapper{
+  width: 100%;
+  /* margin-bottom: 20%; */
+  /* background-color: #80808017; */
+  border-radius: 5px;
+}
+.listHeader{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  /* background-color: #80808026; */
+  background-color: #009ff6;
+  border-radius: 5px;
+  position: fixed;
+  top: 73px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.avatarStyleListHeader{
+  vertical-align: middle;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  flex: 0 1 20%;
+  margin: 5px 10px;
+}
+.avatarStyleListMessage{
+  display: none;
+}
+.avatarStyle{
+  vertical-align: middle;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  flex: 0 1 20%; 
+}
+
+.nameListHeader{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.back{
+  margin: 5% 0;
+  background-color: #007bbe;
+  border-radius: 11px;
+}
+.back:hover{
+  background-color: rgba(0, 0, 255, 0.473);
+}
+.arrowDown{
+  position: fixed;
+  left: 90%;
+  top: 70%;  
+}
+.arrowDownHidden{
+  visibility: hidden;
+  position: fixed;
+  left: 90%;
+  top: 70%;
+}
+.messageItemWrap{
+  margin-top: 243px;
+  margin-bottom: 36%;
+  z-index: 1;
+}
+.myMessage{
+  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-left: 40px;
+    /* padding-left: 102px;*/
+}
+.myMessageText{
+  background-color: #808080b3;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+  white-space: break-spaces; 
+}
+.friendMessage{
+  flex: 0 1 100%;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+.friendMessageText{
+  background-color: #007bbe;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: fit-content;
+}
+.friendMessageWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  margin-left: 25px;
+}
+ .myMessageWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.friendTime{
+  flex: 1 1 100%;
+  font-size: 14px;
+  color: #0000006b;
+  margin-left: 63px;
+  margin-bottom: 10px;
+}
+.myTime{
+  flex: 1 1 100%;
+/*   margin-bottom: 40px;
+  margin-left: 699px; */
+  padding-right: 10px;
+  margin-left: 224px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #0000006b;
+}
+
+.inputForm{
+  /* margin-left: 10px; */
+  margin-top: 45px;
+  margin-bottom: 10px;
+  position: relative;
+}
+textarea{
+  border: #80808075 4px;
+  border-style: solid;
+  /* border-width: thin; */
+  resize: none;
+  height: 45px;
+  width: 80%;
+  border-radius: 25px;
+  line-height: 20px;
+  /* margin-left: -147px; */
+  padding: 15px 20px 5px 20px;
+  max-height: 80px;
+  font-size: 20px;
+  position: fixed;
+  bottom: -1px;
+  left: 0;
+  right: 0px;
+  z-index: 2;
+}
+textarea::placeholder {
+  font-size: 20px;
+  padding: 5px 0 10px 10px;
+}
+.sendButton{
+  position: fixed;
+  /* top: 37px; */
+  bottom: 3%;
+  left: 83%;
+  border: none;
+  background-color: white;
+  z-index: 2;
+}
+/* Стили для фаблетов и планшетов */
+/* @media (min-width: 768px) {
+  
+} */
+
+/* Стили для десктопов */
+
+@media (min-width: 992px) {
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrap{
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.homeWrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  background-color: none;
+}
+
+.backgroundWrapLogin{
+  background-image: url(../assets/images/darkbluebackground.jpg);
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.loginButton{
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  font-size: 33px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: gray;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  padding: 1px 5px 5px 5px;;
+}
+.loginButton:hover{
+  background-color: rgba(0, 0, 255, 0.473);
+}
+.myAvatar{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex: 0 1 50px;
+  margin: 10px;
+}
+/* .headerCotact avatarStyle{
+
+ 
+} */
+
+.buttonLogOut{
+  background-color: #8080804f;
+  width: 85px;
+  height: 38px;
+  border: 2px gray;
+  border-radius: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.buttonLogOut:hover{
+  background-color: rgba(0, 0, 255, 0.473);
+}
+.headerCotact{
+  background-color: #80808026;
+  padding-bottom: 10px;
+  margin-right: -25px;
+  margin-left: 0;
+}
+.filter{
+ position: relative;
+ width: 100%;
+}
+.searchIcon{
+  position: absolute;
+  top: 20px;
+  left: 33px;
+}
+input{
+  border: #80808075;
+  border-style: solid;
+  border-width: thin;
+  resize: none;
+  height: 45px;
+  width: 82%;
+  border-radius: 25px;
+  line-height: 20px;
+  padding: 5px 10px 5px 42px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+input::placeholder {
+  font-size: 20px;
+  padding: 10px 0 10px 15px;
+}
+
+.contacts{
+  width: 480px;
+}
+.contactsTitle{
+  font-size: 28px;
+  color: #0000ff85;
+  margin: 30px 10px;
+}
+
+.userContactsItem{
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #8080802e;
+}
+.userNameContacts{
+  font-size: 20px;
+  margin: 0 10px;
+  color: #000000c9;
+}
+.lastMessage{
+  width: 269px;
+  margin: -15px 59px 0 59px;
+  color: #0000006b;
+}
+.lastMessageTime{
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+.listWrapper{
+  width: 842px;
+  margin-left: 25px;
+  background-color: #80808017;
+  border-radius: 5px;
+}
+.listHeader{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #80808026;
+  border-radius: 5px;
+}
+.nameListHeader{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.avatarStyle{
+  display: flex;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex: 0 1 50px;
+}
+
+.myMessage{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-left: 30%;
+}
+.myMessageText{
+  background-color: gray;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+  /* white-space: pre; */
+}
+.friendMessage{
+  flex: 0 1 400px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+.friendMessageText{
+  background-color: rgba(0, 0, 0, 0.76);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: fit-content;
+}
+.friendMessageWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.myMessageWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.friendTime{
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  font-size: 14px;
+  color: #0000006b;
+}
+.myTime{
+  flex: 1 1 100%;
+  margin-bottom: 40px;
+  margin-left: 699px;
+  padding-right: 10px;
+  font-size: 14px;
+  color: #0000006b;
+}
+.inputForm{
+  margin-left: 50%;
+  position: relative;
+}
+textarea{
+  border: #80808075;
+  border-style: solid;
+  border-width: thin;
+  resize: none;
+  height: 45px;
+  width: 104%;
+  border-radius: 25px;
+  line-height: 20px;
+  margin-left: -147px;
+  padding: 5px 20px;
+  font-size: 18px;
+}
+textarea::placeholder {
+  font-size: 20px;
+  padding: 10px 0 10px 10px;
+}
+.sendButton{
+  position: absolute;
+  top: 22px;
+  left: 575px;
+  border: none;
+}
+.notificationWrap{
+  position: relative;
+}
+.notification{
+  position: relative;
+}
+.notificationItem{
+   position: absolute;
+   top: -60%;
+}
+
+}

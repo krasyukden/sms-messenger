@@ -1,0 +1,62 @@
+.loginPageWrap{
+  background-image: url(../assets/images/lightbluebackground.jpg);
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+
+}
+.formLogin{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 211px;
+  left: 141px;
+}
+.emailFormLogin::placeholder {
+  font-size: 20px;
+  padding: 10px 0 10px 5px;
+}
+.passFormLogin::placeholder {
+  font-size: 20px;
+  padding: 10px 0 10px 5px;
+}
+.buttonFormLogin{
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: gray;
+  position: absolute;
+  padding: 10px;
+}
+.buttonFormLogin:hover{
+  background-color: rgba(0, 0, 255, 0.671);
+}
+.buttonFormLoginSignIn{
+  top: 166px;
+  left: 11px;
+  border: gray
+}
+.buttonFormLoginRegister{
+  top:  484px;
+  left: 154px;
+  border: gray;
+}
+.passFormLogin{
+  width: 500px;
+  margin: 10px;
+}
+.emailFormLogin{
+  width: 500px;
+  margin: 10px;
+}

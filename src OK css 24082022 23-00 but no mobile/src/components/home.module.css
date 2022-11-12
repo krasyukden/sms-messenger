@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.wrap{
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #80808038;
+}
+.homeWrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  background-color: #80808012;
+}
+
+.backgroundWrapLogin{
+  background-image: url(../assets/images/darkbluebackground.jpg);
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.loginButton{
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  font-size: 33px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: gray;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  padding: 1px 5px 5px 5px;;
+}
+.loginButton:hover{
+  background-color: rgba(0, 0, 255, 0.473);
+}
+.myAvatar{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex: 0 1 50px;
+  margin: 10px;
+}
+.buttonLogOut{
+  background-color: #8080804f;
+  width: 85px;
+  height: 38px;
+  border: 2px gray;
+  border-radius: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.buttonLogOut:hover{
+  background-color: rgba(0, 0, 255, 0.473);
+}
+.headerCotact{
+  background-color: #80808026;
+  padding-bottom: 10px;
+  margin-right: -25px;
+}
+.filter{
+ position: relative;
+}
+.searchIcon{
+  position: absolute;
+  top: 20px;
+  left: 33px;
+}
+input{
+  border: #80808075;
+  border-style: solid;
+  border-width: thin;
+  resize: none;
+  height: 45px;
+  width: 82%;
+  border-radius: 25px;
+  line-height: 20px;
+  padding: 5px 10px 5px 42px;
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+input::placeholder {
+  font-size: 20px;
+  padding: 10px 0 10px 15px;
+}
+
+.contacts{
+  width: 480px;
+}
+.contactsTitle{
+  font-size: 28px;
+  color: #0000ff85;
+  margin: 30px 10px;
+}
+
+.userContactsItem{
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #8080802e;
+}
+.userNameContacts{
+  font-size: 20px;
+  margin: 0 10px;
+  color: #000000c9;
+}
+.lastMessage{
+  width: 269px;
+  margin: -15px 59px 0 59px;
+  color: #0000006b;
+}
+.lastMessageTime{
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+.listWrapper{
+  width: 842px;
+  margin-left: 25px;
+  background-color: #80808017;
+  border-radius: 5px;
+}
+.listHeader{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #80808026;
+  border-radius: 5px;
+}
+.nameListHeader{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.avatarStyle{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex: 0 1 50px;
+}
+
+.myMessage{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-left: 30%;
+  padding-right: 40px;
+}
+.myMessageText{
+  background-color: gray;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+}
+.friendMessage{
+  flex: 0 1 400px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+.friendMessageText{
+  background-color: rgba(0, 0, 0, 0.76);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: fit-content;
+}
+.friendMessageWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.myMessageWrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.friendTime{
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  font-size: 14px;
+  color: #0000006b;
+}
+.myTime{
+  flex: 1 1 100%;
+  margin-bottom: 40px;
+  margin-left: 699px;
+  padding-right: 10px;
+  font-size: 14px;
+  color: #0000006b;
+}
+.inputForm{
+  margin-left: 50%;
+  position: relative;
+}
+textarea{
+  border: #80808075;
+  border-style: solid;
+  border-width: thin;
+  resize: none;
+  height: 45px;
+  width: 108%;
+  border-radius: 25px;
+  line-height: 20px;
+  margin-left: -147px;
+  padding: 5px 20px;
+  font-size: 18px;
+}
+textarea::placeholder {
+  font-size: 20px;
+  padding: 10px 0 10px 10px;
+}
+.sendButton{
+  position: absolute;
+  top: 22px;
+  left: 595px;
+  border: none;
+  background-color: white;
+}
+.notificationWrap{
+  position: relative;
+}
+.notification{
+  position: relative;
+}
+.notificationItem{
+   position: absolute;
+   top: -60%;
+}
